@@ -81,7 +81,10 @@
         <configuration>
           <emulator> <avd>wvga</avd> </emulator>
           <manifest> <debuggable>true</debuggable> </manifest>
-          <proguard> <skip>false</skip> </proguard>
+          <proguard>
+            <config>proguard.cfg</config>
+            <skip>false</skip>
+          </proguard>
           <sdk> <platform>8</platform> </sdk>
           <test> <skip>true</skip> </test>
           <undeployBeforeDeploy>false</undeployBeforeDeploy>
