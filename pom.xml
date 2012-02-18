@@ -79,16 +79,12 @@
         <artifactId>android-maven-plugin</artifactId>
         <version>3.0.0</version>
         <configuration>
-          <sdk>
-            <platform>8</platform>
-          </sdk>
-          <emulator>
-            <avd>22</avd>
-          </emulator>
+          <emulator> <avd>wvga</avd> </emulator>
+          <manifest> <debuggable>true</debuggable> </manifest>
+          <proguard> <skip>false</skip> </proguard>
+          <sdk> <platform>8</platform> </sdk>
+          <test> <skip>true</skip> </test>
           <undeployBeforeDeploy>false</undeployBeforeDeploy>
-          <proguard>
-            <skip>false</skip>
-          </proguard>
         </configuration>
         <extensions>true</extensions>
       </plugin>
