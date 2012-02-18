@@ -5,7 +5,7 @@ This setup works. I use it with multiple clients.
 
     mvn clean install android:deploy
 
-You must be using Maven 3.
+You must be using Maven 3.0.3+.
 
 ## Help ##
 
