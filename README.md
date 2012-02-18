@@ -1,11 +1,16 @@
 # Maven Android Scala Prototype #
 This setup works. I use it with multiple clients.
 
+## Setup ##
+- Install JDK 1.5+.
+- Install the Android SDK.
+- Install Maven 3.0.3+.
+- Set the ennvironment variable ANDROID_HOME to the paty of your Android SDK.
+- Add $ANDROID_HOME/tools and $ANDROID_HOME/platform_tools to your $PATH.
+
 ## Compile & Run on Attached Device or Running Emulator ##
 
     mvn clean install android:deploy
-
-You must be using Maven 3.0.3+.
 
 ## Help ##
 
