@@ -7,6 +7,10 @@ This setup works. I use it with multiple clients.
 
 You must be using Maven 3.
 
+## Help ##
+
+    mvn android:help
+
 ## Improvement ##
 I'm trying to figure out how to:
 
